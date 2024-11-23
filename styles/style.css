@@ -35,78 +35,22 @@ border-radius: 5mm
 }
 .header {
     display: flex;
-    justify-content: flex-end; 
-    background-color: rgb(59, 0, 82); 
-    padding: 10px; 
-    border-radius: 5px; 
+    justify-content: flex-end;
+    background-color: #f1f1f1;
+    padding: 10px;
 }
 
 .header a {
-    color: white; 
-    text-decoration: none; 
-    margin-left: 20px; 
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
 }
 
-.header a:hover {
-    text-decoration: underline; 
+.container, .container-2, .container-3 {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
 }
 
-.container {
-    background-color: rgb(220, 220, 220); 
-    text-align: center; /* Центрирование содержимого по горизонтали */
-    padding: 20px; 
-}
-
-.block {
-    width: 200px; 
-    height: 200px; 
-    background-color: rgb(100, 150, 200); 
-    margin: 0 auto; /* Центрирование блока по горизонтали */
-}
-
-.center-image {
-    width: 200px; 
-    display: block; 
-    margin: 20px auto; 
-}
-css
-.position-example {
-    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
-    height: 300px; 
-    background-color: rgb(240, 240, 240); 
-    margin-bottom: 20px; 
-    padding: 10px; 
-}
-
-.absolute-box {
-    position: absolute; 
-    top: 20px; 
-    left: 20px; 
-    width: 150px; 
-    height: 100px; 
-    background-color: rgb(100, 200, 100); 
-    text-align: center;
-    line-height: 100px; /* Вертикальное центрирование текста */
-}
-
-.relative-box {
-    position: relative; /* Относительное позиционирование */
-    top: 50px; 
-    left: 50px; 
-    width: 150px; 
-    height: 100px; 
-    background-color: rgb(200, 100, 100); 
-    text-align: center; /* Центрирование текста */
-    line-height: 100px; 
-}
-
-.fixed-box {
-    position: fixed; /* Фиксированное позиционирование */
-    bottom: 20px; 
-    right: 20px; 
-}
-
-.cat-image {
-    width: 100px; 
-    height: 100px; 
-}
+.block, .block-2, .block-3 {
+    margin: 0 auto;
